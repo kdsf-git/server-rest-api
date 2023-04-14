@@ -10,4 +10,20 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>server-rest-api</name>
+  <build>
+  	<finalName>server-rest-api</finalName>
+  </build>
+  <dependencies>
+  	<dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter</artifactId>
+    	<version>3.0.5</version>
+	</dependency>
+	<dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter-web</artifactId>
+    	<version>3.0.5</version>
+	</dependency>
+
+  </dependencies>
 </project>
